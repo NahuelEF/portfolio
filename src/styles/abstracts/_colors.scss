@@ -1,0 +1,59 @@
+//global color tokes
+$clr-white: hsla(0, 0%, 100%, 1);
+$clr-gray-100: hsla(0, 0%, 94%, 1);
+$clr-gray-200: hsla(214, 24%, 87%, 1);
+$clr-blue-100: hsla(231, 17%, 84%, 1);
+$clr-blue-200: hsla(202, 72%, 50%, 1);
+$clr-blue-300: hsla(209, 80%, 44%, 1);
+$clr-blue-400: hsla(218, 68%, 28%, 1);
+$clr-blue-500: hsla(220, 52%, 18%, 1);
+$clr-black: hsla(0, 0%, 0%, 1);
+
+$light: (
+  'neutral': (
+    '000': $clr-white,
+    '100': $clr-gray-100,
+    '200': $clr-gray-200,
+    '1000': $clr-black,
+  ),
+  'accent': (
+    '100': $clr-blue-200,
+    '200': $clr-blue-300,
+  ),
+  'primary': (
+    '100': $clr-blue-100,
+    '200': $clr-blue-400,
+    '300': $clr-blue-500,
+  ),
+);
+
+$dark: (
+  'neutral': (
+    '1000': $clr-white,
+    '200': $clr-gray-100,
+    '100': $clr-gray-200,
+    '000': $clr-black,
+  ),
+  'accent': (
+    '100': $clr-blue-200,
+    '200': $clr-blue-300,
+  ),
+  'primary': (
+    '100': $clr-blue-100,
+    '200': $clr-blue-400,
+    '300': $clr-blue-500,
+  ),
+);
+
+//contextual color tokes
+$color-neutral-000: var(--neutral-000);
+$color-neutral-100: var(--neutral-100);
+$color-neutral-200: var(--neutral-200);
+$color-neutral-1000: var(--neutral-1000);
+
+$color-accent-100: var(--accent-100);
+$color-accent-200: var(--accent-200);
+
+$color-primary-100: var(--primary-100);
+$color-primary-200: var(--primary-200);
+$color-primary-300: var(--primary-300);
