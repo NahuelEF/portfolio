@@ -1,9 +1,15 @@
 @use '../abstracts' as *;
 
 :root {
-  @each $color, $shade-map in $light {
+  @each $color, $shade-map in $colors {
     @each $shade, $value in $shade-map {
       --#{$color}-#{$shade}: #{$value};
+    }
+  }
+
+  @each $font, $font-map in $fonts {
+    @each $property, $value in $font-map {
+      --font-#{$font}-#{$property}: #{$value};
     }
   }
 }
