@@ -1,0 +1,24 @@
+@use '../abstracts' as *;
+
+html {
+  color-scheme: dark light;
+  scrollbar-width: auto;
+  scrollbar-color: $color-neutral-000 $color-neutral-800;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: $font-family-base;
+  color: $color-neutral-000;
+  background-color: $color-neutral-800;
+  hyphens: auto;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+//borrar
+a {
+  background-color: rgba(126, 252, 0, 0.302);
+}

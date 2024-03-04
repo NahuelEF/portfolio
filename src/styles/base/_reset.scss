@@ -114,15 +114,3 @@ svg {
   display: block;
   fill: currentColor;
 }
-
-body {
-  min-height: 100vh;
-  font-size: 100%;
-  font-family: $font-family-base;
-  color: $color-neutral-1000;
-  background-color: $color-neutral-000;
-  hyphens: auto;
-  font-smooth: always;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
